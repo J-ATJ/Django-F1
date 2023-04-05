@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./logo.ico">
+    <title>Django F1</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <header>
+        <h1>Django F1 App Preview</h1>
+        <hr />
+    </header>
+
+    <main>
+        <video controls poster="./poster.png">
+            <source src="./F1_stats.mp4" type="video/mp4">
+        </video>
+        <p>
+            This project is a web application built with Django that uses webscraping to get the current data from the 2023 Formula 1 championship.
+            <br/><br/>
+            The main view shows the leaderboard of the top 3 drivers with their photos and relevant data such as name, team, country and points won so far. In addition, it shows the complete tables of the drivers' and constructors' championships with the total points and the position obtained in each race. It also shows details of the upcoming Grand Prix, including the date, name and a countdown to the race.
+            <br/><br/>
+            Data was retrieved via webscraping from different sources using the Python "requests" and "beautifulsoup" libraries.
+            <br/><br/>
+            The app is responsive and has a simple design using bootstrap 5.</p>
+    </main>
+    <footer>
+        <h3>Created by J-ATJ</h3>
+
+        <a href="https://j-atj.github.io/Portafolio/" rel="noopener noreferrer" target="_blank">
+            <i class="bi bi-github"></i>
+        </a>
+    </footer>
+
+</body>
+
+</html>
